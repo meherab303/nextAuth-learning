@@ -65,7 +65,7 @@ const Navbar = ({session}:{session:TUserSession|null}) => {
       </div>
       <div className="navbar-end">
        {
-        session?.user? <button onClick={()=>signOut()} className="btn btn-error btn-outline text-white rounded-full px-5">
+        session?.user? <button onClick={()=>signOut({callbackUrl:'/login'})} className="btn btn-error btn-outline text-white rounded-full px-5">
         Logout
       </button>
 :
