@@ -9,7 +9,7 @@ const DashboardPage =async () => {
       <h1 className="text-4xl text-center mt-10">{session?.user?.name}</h1>
       <h1 className="text-4xl text-center mt-10">{session?.user?.email}</h1>
       {session?.user?.image && <>
-        <Image  src={session?.user?.image} alt="image" width={200} height={200} className="mx-auto mt-5" />
+        <Image  src={session?.user?.image} alt="image" width={200} height={200} className="mx-auto mt-5 rounded-full" />
       </>}
     </div>
   );
