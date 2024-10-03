@@ -11,5 +11,6 @@
       }),
       // ...add more providers here
     ],
+    secret:process.env.NEXT_AUTH_SECRET_KEY
   }
   
