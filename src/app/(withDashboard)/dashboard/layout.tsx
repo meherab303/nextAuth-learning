@@ -1,5 +1,9 @@
+
+
+
 import Sidebar from "@/components/shared/Sidebar";
 import type { Metadata } from "next";
+import { useRouter } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Next Auth Dashboard",
